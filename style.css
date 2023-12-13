@@ -1,3 +1,26 @@
+:root {
+    --badge-color-light-grey: #F3F4F6;
+    --badge-color-light-red: #FEE2E2;
+    --badge-color-light-yellow: #FEF3C7;
+    --badge-color-light-green: #D1FAE5;
+    --badge-color-light-blue: #DBEAFE;
+    --badge-color-light-indigo: #E0E7FF;
+    --badge-color-light-purple: #EDE9FE;
+    --badge-color-light-pink: #FCE7F3;
+
+    --badge-color-dark-grey: #1F2937;
+    --badge-color-dark-red: #991B1B;
+    --badge-color-dark-yellow: #92400E;
+    --badge-color-dark-green: #065F46;
+    --badge-color-dark-blue: #1E40AF;
+    --badge-color-dark-indigo: #3730A3;
+    --badge-color-dark-purple: #5B21B6;
+    --badge-color-dark-pink: #9D174D;
+
+    --badge-shape-pill: pill;
+    --badge-shape-rectangle: rectangle;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -56,13 +79,13 @@ button.button-success {
     background-color: #ECFDF5;
     border-color: #047857;
 }
- 
+
 button.button-warning {
     color: #FBBF24;
     background-color: #FFFBEB;
     border-color: #FBBF24;
 }
- 
+
 button.button-danger {
     color: #F87171;
     background-color: #FEF2F2;
@@ -119,3 +142,55 @@ button.button-danger {
 .box.filled {
     background-color: blue;
 }
+
+.badge {
+    display: inline;
+    border: 1px solid black;
+    padding: 0.5em 1.5em
+}
+
+
+.badge {
+    display: inline;
+    border: 1px solid var(--badge-color-dark-grey);
+    padding: 0.5em 1.5em;
+    color: var(--badge-color-dark-grey);
+}
+
+.badge-pill {
+    border-radius: 50px;
+    /* Adjust the value based on your design */
+}
+
+.badge-rectangle {
+    border-radius: 0;
+    /* Adjust the value based on your design */
+}
+
+/* Light Background Colors */
+.badge-light-grey {
+    background-color: var(--badge-color-light-grey);
+    color: var(--badge-color-dark-grey);
+    /* Adjust text color for better contrast */
+}
+
+.badge-light-red {
+    background-color: var(--badge-color-light-red);
+    color: var(--badge-color-dark-red);
+}
+
+/* Repeat for other light colors... */
+
+/* Dark Background Colors */
+.badge-dark-grey {
+    background-color: var(--badge-color-dark-grey);
+    color: var(--badge-color-light-grey);
+    /* Adjust text color for better contrast */
+}
+
+.badge-dark-red {
+    background-color: var(--badge-color-dark-red);
+    color: var(--badge-color-light-red);
+}
+
+/* Repeat for other dark colors... */
