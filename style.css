@@ -34,6 +34,13 @@ body {
     font-family: Inter;
 }
 
+.components {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
 .star {
     height: 30px;
     width: 30px;
@@ -156,12 +163,25 @@ button.button-danger {
 
 .pill {
     border-radius: 50px;
-
 }
 
 .square {
     border-radius: 5px;
 }
+
+.banner {
+    width: 896px;
+    padding: 0em 1em 1em 1em;
+    border-radius: 6px;
+    background: #ECFDF5;
+}
+
+.banner-head-text {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
 
 
 /* Light Background Colors */
