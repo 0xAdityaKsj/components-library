@@ -1,13 +1,14 @@
 {
   "name": "project",
   "dependencies": {
+    "classnames": "^2.3.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "4.4.0"
   },
   "devDependencies": {
-    "vite": "latest",
-    "@vitejs/plugin-react": "*"
+    "@vitejs/plugin-react": "*",
+    "vite": "^5.0.8"
   },
   "scripts": {
     "start": "vite",
