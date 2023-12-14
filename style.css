@@ -1,12 +1,12 @@
 :root {
-    --badge-color-light-grey: #F3F4F6;
-    --badge-color-light-red: #FEE2E2;
-    --badge-color-light-yellow: #FEF3C7;
-    --badge-color-light-green: #D1FAE5;
-    --badge-color-light-blue: #DBEAFE;
-    --badge-color-light-indigo: #E0E7FF;
-    --badge-color-light-purple: #EDE9FE;
-    --badge-color-light-pink: #FCE7F3;
+    --badge-color-grey: #F3F4F6;
+    --badge-color-red: #FEE2E2;
+    --badge-color-yellow: #FEF3C7;
+    --badge-color-green: #D1FAE5;
+    --badge-color-blue: #DBEAFE;
+    --badge-color-indigo: #E0E7FF;
+    --badge-color-purple: #EDE9FE;
+    --badge-color-pink: #FCE7F3;
 
     --badge-color-dark-grey: #1F2937;
     --badge-color-dark-red: #991B1B;
@@ -145,52 +145,62 @@ button.button-danger {
 
 .badge {
     display: inline;
-    border: 1px solid black;
-    padding: 0.5em 1.5em
-}
-
-
-.badge {
-    display: inline;
-    border: 1px solid var(--badge-color-dark-grey);
     padding: 0.5em 1.5em;
-    color: var(--badge-color-dark-grey);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
 }
 
-.badge-pill {
+
+.pill {
     border-radius: 50px;
-    /* Adjust the value based on your design */
+
 }
 
-.badge-rectangle {
-    border-radius: 0;
-    /* Adjust the value based on your design */
+.square {
+    border-radius: 5px;
 }
+
 
 /* Light Background Colors */
-.badge-light-grey {
-    background-color: var(--badge-color-light-grey);
+.grey {
+    background-color: var(--badge-color-grey);
     color: var(--badge-color-dark-grey);
-    /* Adjust text color for better contrast */
 }
 
-.badge-light-red {
-    background-color: var(--badge-color-light-red);
+.red {
+    background-color: var(--badge-color-red);
     color: var(--badge-color-dark-red);
 }
 
-/* Repeat for other light colors... */
-
-/* Dark Background Colors */
-.badge-dark-grey {
-    background-color: var(--badge-color-dark-grey);
-    color: var(--badge-color-light-grey);
-    /* Adjust text color for better contrast */
+.yellow {
+    background-color: var(--badge-color-yellow);
+    color: var(--badge-color-dark-yellow);
 }
 
-.badge-dark-red {
-    background-color: var(--badge-color-dark-red);
-    color: var(--badge-color-light-red);
+.green {
+    background-color: var(--badge-color-green);
+    color: var(--badge-color-dark-green);
 }
 
-/* Repeat for other dark colors... */
+.blue {
+    background-color: var(--badge-color-blue);
+    color: var(--badge-color-dark-blue);
+}
+
+.indigo {
+    background-color: var(--badge-color-indigo);
+    color: var(--badge-color-dark-indigo);
+}
+
+.purple {
+    background-color: var(--badge-color-purple);
+    color: var(--badge-color-dark-purple);
+}
+
+.pink {
+    background-color: var(--badge-color-pink);
+    color: var(--badge-color-dark-pink);
+}

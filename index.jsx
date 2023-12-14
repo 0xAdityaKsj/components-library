@@ -9,10 +9,16 @@ function App() {
     <>
       <h1>Your components go here</h1>
       <Badge
-        color="grey"
+        color="red"
         shape="pill"
       >
         Hello
+      </Badge>
+      <Badge
+        color="indigo"
+        shape="square"
+      >
+        There !
       </Badge>
     </>
   )
