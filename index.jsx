@@ -26,6 +26,25 @@ function App() {
       >
         lorem ipsum ..... lorem etc
       </Banner>
+      <Banner
+        flag="red"
+      >
+        lorem ipsum ..... lorem etc
+      </Banner>
+      <Banner
+        flag="yellow"
+      >
+        lorem ipsum ..... lorem etc
+      </Banner>
+      <Banner
+        flag="blue"
+      >
+        lorem ipsum ..... lorem etc
+      </Banner>
+      <Banner
+        flag="blue"
+      >
+      </Banner>
     </div>
   )
 }

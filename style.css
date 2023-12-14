@@ -182,6 +182,10 @@ button.button-danger {
     gap: 5px;
 }
 
+.banner-content {
+    padding: 0;
+    margin: 0;
+}
 
 
 /* Light Background Colors */
