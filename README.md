@@ -13,6 +13,11 @@ The `Menu` component offers a versatile navigation menu for your web application
 ### Badge
 The `Badge` component simplifies the addition of badges to your elements, indicating counts such as notifications or unread messages. It provides various customization options.
 
+### Banner 
+
+Introducing a set of banner components to enhance your user interface. These components are designed to grab attention and convey important messages seamlessly.
+
+
 ## Getting Started
 
 1. **Clone this repository:**
